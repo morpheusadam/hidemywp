@@ -1,0 +1,163 @@
+#wph h2.nav-tab-wrapper{padding-left: 10px}
+#wph h2 .nav-tab {font-size: 12px; font-weight: bold; padding: 2px 10px 3px; margin-right: 0;}
+#wph h2 .nav-tab.header-active { border-left: 3px solid orange; }
+#wph a.nav-tab.check-headers{ background-color: black; color: #FFF; border-color: #3e3e3e; padding: 14px; font-size: 14px;}
+#wph a.nav-tab.check-headers:hover {background-color: #FFF; color:#000}
+#wph .ajax_loading {display: none}
+#wph .postbox .inside {    margin: 0;    padding: 0;}
+#wph h3.handle {border-bottom: 1px solid #e1e1e1; font-size: 14px;    line-height: 1.4;    margin: 0;    padding: 8px 12px;}
+#wph .postbox {margin-bottom: 10px; overflow:hidden}
+#wph .wph_input fieldset label {padding-bottom: 5px; display: block;}
+#wph #reset_settings_form { z-index: 10; position: relative;}
+#wph #reset_settings_form .reset_settings { margin-top: -39px; margin-left: 10px; }
+#wph .options > p.description {padding: 5px 15px; color: #6c6b6b; margin: 1em 0;}
+#wph .button-primary.red { background: #d22222; border-color: #8a0707;}
+#wph #captch_test {padding: 0 0 20px 0px}
+#wph #captch_test .green {color: #259129}
+#wph .captcha-options {margin-top: 20px}
+#wph .captcha-options .spacer {padding: 0px 20px 0px 15px}
+#wph .captcha-options .wph_input select {width: 100%; max-width: 100%; padding: 2px 10px;}
+#wph .captcha-options .wph_input > .row:last-child {padding-bottom: 30px}
+#wph .wph-postbox {display: flex; border-color: #e5e5e5}
+#wph .section_title {font-size: 13px; font-weight: bold; padding: 5px 15px 5px; border: 1px solid #ccc; display: inline-block; margin-right: 0;border-bottom: 1px solid #f1f1f1; background:#FFF; color: #000;}
+#wph-check-headers {padding-top: 30px;}
+#wph-check-headers .spinner {float: none}
+
+.plugin-mark {display: inline-block; vertical-align: top;box-sizing: border-box;margin: 1px 0 -1px 2px;padding: 0 7px 2px 7px;;min-width: 18px;border-radius: 9px;background-color: #d63638;color: #fff;text-align: center;}
+
+.wph_input {    border: 0 none;    background: #fff; width: 50%; max-width: 600px; flex-shrink: 0;}
+.wph_input.full_width {width: 100%; max-width: none;}
+.wph_input .row.cell {    padding: 10px 12px;    border-top: 1px solid #f5f5f5;    border-bottom: 0 none; width: 100%;box-sizing: border-box; line-height: 1.5em;}
+.wph_input .row.cell.np {padding: 0px}
+.wph_input .row.spacer {padding-bottom: 10px}
+.wph_input .row.xspacer {padding-bottom: 30px}
+.wph_input .row.header{border-left: 3px solid orange;padding-left: 20px;}
+.wph_input .row.header p {font-weight: bold}
+#wph .wph_input .row.group label {display: inline-block;}
+.wph_input .row:first-child.cell,
+.wph_input .row:first-child.cell.label {    border-top: 0 none;}
+.wph_input .row.cell.data {    padding-bottom: 20px;}
+.wph_input .row.cell.data p.description {font-size: 12px; margin-bottom: 3px;}
+.wph_input .row.cell.data .irow {display: flex; padding: 5px 0; position: relative; z-index: 1;}
+.wph_input .row.cell.data .orow {position: relative; z-index: 1;}
+.wph_input .row.cell.data .separator{border-bottom: 1px dashed #b3b3b3;}
+.wph_input .row {align-items: center; position: relative; z-index: 1;}
+.wph_input .row .action {display: flex; font-size: 24px; padding: 5px 0 5px 10px;}
+.wph_input .row .action .dashicons {font-size: 20px}
+.wph_input .row .irow .icon {display: flex; font-size: 20px; width: 50px; padding-top: 4px;}
+.wph_input .dashicons {overflow: hidden}
+.wph_input .options {float: right; display: flex; margin: 0px; padding-top: 5px}
+.wph_input .options ul {display: inline-block; }
+.wph_input .options li {  padding: 0px 3px}
+.wph_input .options li a:focus, .wph_input .options li a:active { outline: 0; border: none;  -moz-outline-style: none; }
+.wph_input .options li span {display:block;cursor: pointer; color: #797979; font-size: 17px;}
+.wph_input .options li span:hover {color: #000}
+.wph_input input[type=text],.wph_input textarea,.wph_input select{border-color:#dddddd; width: 100%; margin-left: 0px} 
+.wph_input #replacer_insert_root {display: none}
+
+.inner_table .row.cell {padding-bottom: 12px}
+.inner_table .description {margin-bottom: 3px; font-style: normal;}
+table.wph_submit {position: relative; z-index: 10}
+table .submit .submitdelete {line-height: 25px;    text-align: left;    vertical-align: middle;border-bottom-color: red;    color: red; border-bottom-style: solid;    border-bottom-width: 1px;padding: 1px 2px;    text-decoration: none; margin-right: 20px}
+table .submit .submitdelete:hover {color:#FFF; background-color: red; border-color: red}
+.wph_input .row.cell.label {    vertical-align: top;    background: #F9F9F9;    border-top: 1px solid #f0f0f0;    border-right: none}
+.apto_rules .row.cell{border-top: 0 none;}    
+.wph_input img {vertical-align: middle;}
+.even_table tr .cell {background-color:#FCFCFC}
+.wph_input hr {border:1px dotted #E1E1E1; float: left;    margin-left: 15px;    width: 90%;    border-style:none none dotted;    color:#FFF;    background:#FFF;}
+table .wph_input tr .cell{}
+.wph_input .row.cell.param {width: 50%}
+.conditional_rules .wph_input .cell.param{width: 40%}
+.conditional_rules .wph_input .cell.comparison{width: 12%}
+
+.wph_input .advanced.hide {display: none}
+.wph_input .advanced_notice {background-color: #FFF; border: 1px solid #cfcfd1; border-left: 5px solid #7d6591; margin: 10px 0 10px -17px; display: flex; justify-content: center; padding: 10px 0}
+.wph_input .advanced_notice .icon {flex: 0 0 60px; text-align: center; margin-top: auto;  margin-bottom: auto;}
+.wph_input .advanced_notice .icon img {max-width: 32px}
+.wph_input .advanced_notice .text {width: 100%}
+.wph_input .advanced_notice .text p {color:#4a4949; font-size: 13px;line-height: 17px;}
+.wph_input .advanced_notice .actions {flex: 0 0 100px; text-align: center; vertical-align: middle; margin-top: auto;  margin-bottom: auto;}
+
+.wph_input .options_text{padding: 10px 0; border-left: 4px solid #0073aa;margin-left: -13px;padding-left: 10px; display: flex}
+.wph_input .options_text.text_pre {margin-bottom: 10px;}
+.wph_input .options_text.text_post {margin-top: 10px;}
+.wph_input .options_text .icon {flex: 0 0 60px; text-align: center; margin-top: auto;  margin-bottom: auto;}
+.wph_input .options_text .icon img {max-width: 32px}
+.wph_input .options_text .text {width: 100%}
+.wph_input .options_text .text p {color:#4a4949; font-size: 13px;line-height: 17px;}
+
+.wph_help {background-color: #fefefe; padding: 0 20px; box-sizing: border-box; overflow: hidden; position:relative; border-left: 1px solid #f1f1f1; flex-grow: 1;}
+.option_help::before {    color: #ececec;    content: "\f118";;     display: block;    font-family: dashicons;    font-size: 232px;    line-height: 1;    position: absolute;    right: 20px;    text-align: center;    top: 10%;    width: 1em; z-index: 1}
+.option_help .text { position: relative; z-index: 1;}
+.option_help .text p, .option_help .text li { color: #575555;}
+.option_help .text p br {content: "";  margin: 3px;  display: block;  font-size: 24%;}
+.option_help .text p img {max-width: 100%; height: auto}
+.option_help .text p a {text-decoration: none}
+.option_help .text .important {color: #d54e21;}
+.option_help .text p b {color: #000000b8 }
+.option_help .text ul {line-height: 1.5;}
+.option_help .text li {padding-left: 10px; list-style: circle; list-style-position: inside;}
+.option_help .help-section {margin-top: 30px; padding: 10px 10px; background-color: #f4f4f4}
+#wph .option_help .help-section h4 {margin-bottom: 10px}
+.option_help .help-section p:first-of-type {margin: 0px}
+.option_help .help-section #wph-recovery-link { margin: 0px}
+
+#wph-headers {margin-top: 30px; border-left: 4px solid orange;margin-left: -12px; padding-left: 12px;}
+#wph-headers table {width: 100%}
+#wph-headers thead th {font-weight: bold}
+#wph-headers .security-header td:first-child{ font-weight: bold}
+#wph-headers-container .found-headers-info small {background-color: #f7fcfe; padding: 3px 5px; border: 1px dashed red;}
+#wph-headers-container .important {color: #d54e21}
+#wph-headers tr td{border-bottom: 1px solid #dddddd}
+#wph-headers-container span.wph-pro {font-size: 10px;font-weight: normal;padding: 1px 3px;}
+          
+table .select.multiple {height: 82px}
+.wph_input .row.cell h4 {margin: 0px; padding-bottom: 6px}
+.wph_input .row.cell h5 {font-size: 12px;    font-weight: normal;    margin: 0;    padding-bottom: 6px;    padding-top: 10px;}
+.wph_input .row.cell.label label{     font-size: 13px;    font-weight: bold;    padding: 0;    margin: 0;    color: #333;  cursor: default  }
+.wph_input .row.cell.label p, .wph_input .row.cell.label .description{    display: block;   padding: 6px 0 !important;    margin: 0 !important;    font-style: normal;    line-height: 16px;    color: #999;}
+.wph_input .row.cell.label .description .important {color: #d54e21}
+.wph_input .row.cell.label .description .dashicons, .wph_input .row.cell.label .description span {display: inline-block}
+.wph_input .row.cell.label .description span {padding-left: 5px; line-height: 18px;}
+.wph_input .row.cell.label .description span a {display: inline-block}
+.wph_input .row.cell.label .description span.important {color: #d54e21; padding-left: 0px}
+.wph_input .row.cell.label .description span.info {padding-left: 0px; color:#d54e21; font-style: italic;}
+.wph_input .row.cell.label .description .pointer {cursor:pointer}
+.wph_input .row.cell.label .description .notice-success, .wph_input .row.cell.label .description .notice-error {padding: 10px 12px; background-color: #fff;}
+.wph_input .row.cell.label .description a.button {display: inline-block; vertical-align: middle;}
+.wph_input .row.submit .cell { text-align: right}
+.wph_input .row.submit .cell.label {border-right: 1px solid #F9F9F9}
+.wph_input input[type=text],.wph_input textarea,.wph_input select{    width: 99.95%;    outline: none;}
+.wph_input textarea {min-height: 150px}
+.wph_input textarea.ex_block {max-width: calc(100% - 30px);; vertical-align: top; min-height: 80px; max-height: 80px}
+.wph_input  .row.cell .replacement_field {width: 47%; display: inline-block; vertical-align: middle;}
+.wph_input  .row.cell .replacement_field.full_width {width: 100%; display: flex}
+.wph_input  .row.cell span.dashicons.close {font-size: 16px;}
+.wph_input select {    padding: 2px;}
+.wph_input input[type=text]:focus,.wph_input textarea:focus,.wph_input select:focus {    border-color:#98B6CB;}
+
+.postbox h3 span {display: inline-block; vertical-align: middle}
+                                                                                                                                                          
+h2.subtitle {font-size: 15px; font-style: italic; font-weight: bold}
+.wrap .example { color: #666666; font-size: 11px; font-weight: bold}
+
+.start-container {    background-color: #fff;    border-left: 3px solid #0073aa;    overflow: hidden;    padding: 25px 20px 20px 30px;    position: relative;}
+.start-container::before {    color: #eee2ec;    content: "\f111";    content: "\f332";    display: block;    font-family: dashicons;    font-size: 232px;    line-height: 1;    position: absolute;    right: 0;    text-align: center;    top: 0;    width: 1em; z-index: 1}
+
+
+.start-container.title { padding: 0px 20px 0px 30px; }
+
+.start-container.title.security_scan::before {font-size: 90px; content: "\f115";}
+
+
+@media screen and (max-width: 650px) {
+  
+  .wph_input .row.cell.data .irow {display: block}
+  .wph_input .row .irow span.icon {display: none}
+  
+  .wph-postbox {display: block}
+  .wph_help, .wph_input {width: 100%}
+  #wph .wph-postbox {display: block}
+  
+}
+
